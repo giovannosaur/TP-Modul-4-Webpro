@@ -35,10 +35,15 @@ h3{
 	
 }
 
-.inputtombol input[type="text"]:hover, .inputtombol input[type="text"]:focus {
+.inputtombol input[type="text"]:hover {
 	border:none;
 	border-bottom: 3px solid #022c9f;
 	outline:none;
+}
+
+.inputtombol input[type="text"]:focus {
+	border-bottom: 3px solid #ddd;
+	background-color:#ffd600;
 }
 
 .inputtombol input[type="password"] {
@@ -46,10 +51,15 @@ h3{
 	border-bottom: 3px solid #ddd;
 }
 
-.inputtombol input[type="password"]:hover, .inputtombol input[type="password"]:focus {
+.inputtombol input[type="password"]:hover{
 	border:none;
 	border-bottom: 3px solid #022c9f;
 	outline:none;
+}
+
+.inputtombol input[type="password"]:focus {
+	border-bottom: 3px solid #ddd;
+	background-color:#ffd600;
 }
 
 .inputtombol button{
