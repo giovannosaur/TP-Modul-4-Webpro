@@ -1,0 +1,71 @@
+body {
+  background-image:url('celsior.jpg');
+  background-size:cover;
+  font-family: "Arial";
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height: 100vh;
+}
+
+h3{
+	text-align:center;
+	margin-bottom:20px;
+}
+
+.kotaklogin {
+	background-color: #fff;
+	padding: 20px;
+	border-radius:5px;
+	text-align:center;
+	
+}
+
+.inputtombol {
+	font-size: 16px;
+}
+
+.inputtombol input{
+	margin:10px;
+}
+
+.inputtombol input[type="text"] {
+	border:none;
+	border-bottom: 3px solid #ddd;
+	
+}
+
+.inputtombol input[type="text"]:hover, .inputtombol input[type="text"]:focus {
+	border:none;
+	border-bottom: 3px solid #022c9f;
+	outline:none;
+}
+
+.inputtombol input[type="password"] {
+	border:none;
+	border-bottom: 3px solid #ddd;
+}
+
+.inputtombol input[type="password"]:hover, .inputtombol input[type="password"]:focus {
+	border:none;
+	border-bottom: 3px solid #022c9f;
+	outline:none;
+}
+
+.inputtombol button{
+	text-align:center;
+	background-color:#ffd600;
+	border:none;
+	padding:8px;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+.inputtombol button:hover{
+	text-align:center;
+	background-color:#022c9f;
+	border:none;
+	padding:8px;
+	border-radius:5px;
+	cursor:pointer;
+}
